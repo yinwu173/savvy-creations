@@ -25,9 +25,9 @@ nav ul li {
 }
 
 .profile img {
-    max-height: 300px;
+    position: relative;
 }
 
 .work img {
-    max-height: 700px;
+    position: relative;
 }
