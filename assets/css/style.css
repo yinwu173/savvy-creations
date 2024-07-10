@@ -35,6 +35,11 @@ nav ul li {
     padding-bottom: 70px;
 }
 
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 h2 {
     font-size: 200%;
     color: mediumslateblue;
@@ -50,8 +55,15 @@ p {
 .profile img {
     display: flex;
     position: relative;
-    height: 315px;
-    width: 235px;
+    width: 20%;
     float: right;
+    margin: 10px;
+    border-radius: 10%;
+}
+
+.work img {
+    display: flex;
+    width: 50%;
+    border-radius: 20%;
     margin: 10px;
 }
