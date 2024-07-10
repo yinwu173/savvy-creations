@@ -61,9 +61,25 @@ p {
     border-radius: 10%;
 }
 
+.work {
+    display: flex;
+}
+
 .work img {
     display: flex;
     width: 50%;
     border-radius: 20%;
     margin: 10px;
+}
+
+.work-1 img {
+
+}
+
+.work-2 img {
+
+}
+
+.work-3 img {
+
 }
