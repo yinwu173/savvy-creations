@@ -63,23 +63,18 @@ p {
 
 .work {
     display: flex;
+    padding-bottom: 50px;
 }
 
 .work img {
     display: flex;
-    width: 50%;
+    width: 60%;
     border-radius: 20%;
     margin: 10px;
 }
 
-.work-1 img {
-
-}
-
-.work-2 img {
-
-}
-
-.work-3 img {
-
+.works img {
+    width: 20%;
+    border-radius: 20%;
+    margin: 10px;
 }
