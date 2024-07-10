@@ -12,7 +12,7 @@ body {
 header {
     padding: 20px;
     background-color: lightpink;
-    color: mediumslateblue;
+    color: aliceblue;
 }
 
 h1 {
@@ -22,6 +22,7 @@ h1 {
 }
 
 nav {
+    display: flex;
     float: right;
     font-size: 20px;
     margin-right: 20px;
@@ -32,4 +33,25 @@ nav ul li {
     display: inline-block;
     margin-left: 20px;
     padding-bottom: 70px;
+}
+
+h2 {
+    font-size: 200%;
+    color: mediumslateblue;
+    margin: 10px 10px 10px;
+}
+
+p {
+    margin: 10px 10px 10px; 
+    text-align: left;
+    align-items: center;
+}
+
+.profile img {
+    display: flex;
+    position: relative;
+    height: 315px;
+    width: 235px;
+    float: right;
+    margin: 10px;
 }
