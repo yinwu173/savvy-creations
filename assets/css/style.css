@@ -47,7 +47,6 @@ nav ul li {
 section {
     display: flex;
     flex-wrap: wrap;
-
 }
 
 .about-me {
@@ -64,8 +63,8 @@ h2 {
     padding: 10px;
     display: inline-block;
     border-bottom: 5px solid magenta;
-    flex-wrap: wrap;
     text-align: justify;
+    flex-wrap: wrap;
 }
 
 p {
@@ -75,8 +74,9 @@ p {
     flex-wrap: wrap;
 }
 
-.my-work {
+.my-works {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .flex-container {
@@ -94,6 +94,17 @@ p {
     border: 15px solid pink;
     width: 60%;
     margin: 10px;
+}
+
+.bottom-left {
+    position: relative;
+    left: 25px;
+    bottom: 150px;
+    background-color: pink;
+    padding: 5px;
+    text-align: center;
+    width: 10%;
+    font-style: oblique;
 }
 
 .work-items img {
