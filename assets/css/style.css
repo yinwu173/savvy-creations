@@ -35,6 +35,15 @@ nav ul li {
     padding-bottom: 70px;
 }
 
+.profile img {
+    display: flex;
+    width: 15%;
+    float: left;
+    margin: 10px;
+    border-radius: 10%;
+    padding: 10px;
+}
+
 section {
     display: flex;
     flex-wrap: wrap;
@@ -42,8 +51,8 @@ section {
 
 .about-me {
     flex-basis: 10%;
-    margin: auto;
     display: flex;
+    margin-top: 15px;
     padding-bottom: 50px;
 }
 
@@ -63,16 +72,6 @@ p {
     text-align: left;
     align-items: center;
     flex-wrap: wrap;
-}
-
-.profile img {
-    display: flex;
-    position: relative;
-    width: 20%;
-    float: left;
-    margin: 10px;
-    border-radius: 10%;
-    padding: 10px;
 }
 
 .my-work {
@@ -115,5 +114,5 @@ p {
 .contact p {
     font-size: 150%;
     font-style: oblique;
-    margin-top: 15px;
+    margin-top: 30px;
 }
