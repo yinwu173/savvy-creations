@@ -54,15 +54,16 @@ section {
     display: flex;
     margin-top: 15px;
     padding-bottom: 50px;
+    width: 75%;
 }
 
 h2 {
     font-size: 200%;
     color: mediumslateblue;
     margin: 10px 10px 10px;
-    padding: 10px;
+    padding: 1px;
     display: inline-block;
-    border-bottom: 5px solid magenta;
+    border-bottom: 6px solid magenta;
     text-align: justify;
     flex-wrap: wrap;
 }
@@ -84,7 +85,6 @@ p {
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-    flex: 0 0 0 1;
     padding: 20px;
 }
 
@@ -92,7 +92,7 @@ p {
     display: flex;
     border-radius: 20%;
     border: 15px solid pink;
-    width: 60%;
+    width: 55%;
     margin: 10px;
 }
 
@@ -126,5 +126,13 @@ p {
 .contact p {
     font-size: 150%;
     font-style: oblique;
-    margin-top: 30px;
+    margin-top: 20px;
 }
+
+@media screen and (max-width: 980px){
+    header {
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+} 
