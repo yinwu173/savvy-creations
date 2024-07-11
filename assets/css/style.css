@@ -47,6 +47,7 @@ nav ul li {
 section {
     display: flex;
     flex-wrap: wrap;
+
 }
 
 .about-me {
