@@ -40,23 +40,36 @@ section {
     flex-wrap: wrap;
 }
 
+.about-me {
+    flex-basis: 10%;
+    margin: auto;
+    display: flex;
+    padding-bottom: 50px;
+}
+
 h2 {
     font-size: 200%;
     color: mediumslateblue;
     margin: 10px 10px 10px;
+    padding: 30px;
+    display: inline-block;
+    border-bottom: 5px solid magenta;
+    flex-wrap: wrap;
+    text-align: justify;
 }
 
 p {
     margin: 10px 10px 10px; 
     text-align: left;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .profile img {
     display: flex;
     position: relative;
     width: 20%;
-    float: right;
+    float: left;
     margin: 10px;
     border-radius: 10%;
 }
