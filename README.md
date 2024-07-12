@@ -18,5 +18,24 @@
 
 * It is done when my portfolio adapts to different viewports.
 
-### Getting Started 
+### Hints
 
+* CSS styles that need to be used to successfully complete the project profolio includes flex properties including but not limited to display, flex-wrap, justify-content, flex-direction, etc..
+
+* In order for the page to become response to different viewports, media queries should be used so that the site can be displayed on various screens and devices.
+
+## Screenshot of Application
+
+* 
+
+## Link to Deployed Application
+
+* https://yinwu173.github.io/savvy-creations/
+
+## Acknowledgement and Resources
+
+* [Intro to Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
+
+* [CSS Building Blocks](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Images_media_form_elements)
+
+* [Positioning a Text Over an Image](https://www.w3schools.com/howto/howto_css_image_text.asp)
