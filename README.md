@@ -22,7 +22,7 @@
 
 * CSS styles that need to be used to successfully complete the project protfolio includes flex properties including but not limited to display, flex-wrap, justify-content, flex-direction, etc..
 
-* In order for the page to become responsive to different viewports, media queries should be used so that the site can be displayed on various screens and devices. The 
+* In order for the page to become responsive to different viewports, media queries should be used so that the site can be displayed on various screens and devices.  
 
 ## Link to Deployed Application
 
