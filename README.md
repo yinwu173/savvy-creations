@@ -24,6 +24,10 @@
 
 * In order for the page to become responsive to different viewports, media queries should be used so that the site can be displayed on various screens and devices.  
 
+## Screenshot of Application
+
+* ![Screenshot](</Users/yinwu/Desktop/Application Screenshot.png>)
+
 ## Link to Deployed Application
 
 * https://yinwu173.github.io/savvy-creations/
