@@ -26,7 +26,7 @@
 
 ## Screenshot of Application
 
-* ![Screenshot](</Users/yinwu/Desktop/Application Screenshot.png>)
+* ![Screenshot](<Application Screenshot.png>)
 
 ## Link to Deployed Application
 
