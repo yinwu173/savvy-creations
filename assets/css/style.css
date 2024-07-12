@@ -36,9 +36,10 @@ nav ul li {
 }
 
 .profile img {
+    position: relative;
     display: flex;
-    width: 15%;
     float: left;
+    width: 15%;
     margin: 10px;
     border-radius: 10%;
     padding: 10px;
@@ -129,10 +130,25 @@ p {
     margin-top: 20px;
 }
 
-@media screen and (max-width: 980px){
+@media screen and (max-width: 992px){
     header {
-        justify-content: center;
         flex-direction: column;
         text-align: center;
     }
 } 
+
+@media screen and (max-width: 768px){
+    section {
+        flex-direction: column;
+        text-align: center;
+    }
+    .profile img {
+        width: 50%;
+        justify-content: center;
+    } 
+    .work-items-done img,
+    .work-items img {
+        flex-direction: column;
+        width: 100%;
+    }
+}
